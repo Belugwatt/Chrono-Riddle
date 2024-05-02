@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="frogger/styles/style.css" as="style">
+    <link rel="stylesheet" href="frogger/styles/style.css">
+
+    <title>Chrono Riddle: Frogger</title>
+</head>
+
+<body>
+    <main>
+        <div class="flip">
+            <h1>Please, flip your phone to play</h1>
+        </div>
+        <!---------------------------------------------------------------------------->
+        <!--                      Différents canvas du jeu                          -->
+        <!---------------------------------------------------------------------------->
+
+        <div class="wrapper">
+            <canvas id="canvas1"></canvas>
+            <canvas id="canvas2"></canvas>
+            <canvas id="canvas3"></canvas>
+            <canvas id="canvas4"></canvas>
+            <canvas id="canvas5"></canvas>
+        </div>
+
+        <!---------------------------------------------------------------------------->
+        <!--              Boutons pour faire bouger la grenouille                   -->
+        <!---------------------------------------------------------------------------->
+        <div class="controleur">
+
+            <div class="cont">
+                <button id="left" class="but">←</button>
+
+                <button id="up" class="but">↑</button>
+                <button id="down" class="but">↓</button>
+
+                <button id="right" class="but">→</button>
+            </div>
+
+
+        </div>
+        <div class="bravo"><a href="index.html">
+                <p>Continue</p> <img src="frogger/img/arrow.svg" alt="arrow_next" width="20%">
+            </a>
+        </div>
+        <img src="img/skip_button.webp" alt="freddyx" onclick="skip()" class="mascote" width="50px">
+    </main>
+
+    <!---------------------------------------------------------------------------->
+    <!--                            Scripts du jeu                              -->
+    <!---------------------------------------------------------------------------->
+
+    <script src="frogger/js/setup.js"></script>
+    <script src="frogger/js/frogger.js"></script>
+    <script src="frogger/js/particules.js"></script>
+    <script src="frogger/js/obstacles.js"></script>
+    <script src="frogger/js/utilitaires.js"></script>
+    <script>
+		/* Le SW en premier pour éviter les problèmes */
+		if('serviceWorker' in navigator){
+			navigator.serviceWorker.register('sw.js');
+		}
+	</script>
+</body>
+
+</html>

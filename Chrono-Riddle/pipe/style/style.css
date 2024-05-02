@@ -1,0 +1,124 @@
+@font-face {
+    font-family: poppins;
+    src: url("../../fonts/poppins/Poppins-Regular.ttf");
+}
+
+body {
+    margin: 0%;
+    background-color: #e5e5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+
+    background-image: url("../img/fond.png");
+
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir l'ensemble du conteneur */
+    background-position: center;
+    /* Centre l'image horizontalement et verticalement */
+    background-repeat: no-repeat;
+    /* Empêche la répétition de l'image de fond */
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+
+    /*Basic Font Styling*/
+
+    font-size: 1.24rem;
+    color: var(--text-color);
+    max-height: 920px;
+}
+
+#resultat {
+    display: grid;
+    background-color: rgb(165, 179, 187, 0.7);
+    width: fit-content;
+    border-radius: 16px;
+    border: 8px rgb(85, 88, 90, 0.7) solid;
+    padding: 16px;
+
+}
+
+header {
+    padding: 32px;
+}
+
+h1 {
+    color: white;
+}
+
+.mascote {
+    margin-top: 64px;
+    width: 100px;
+    animation: flote 3s infinite ease-in-out;
+}
+
+@keyframes flote {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(16px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Contenu du modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* Fermer le bouton du modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-button div{
+    padding: 8px;
+    border-radius: 16px;
+    background-color:rgb(153, 153, 223,0.4);
+    text-align: center;
+
+}

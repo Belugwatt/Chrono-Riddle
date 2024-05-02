@@ -1,0 +1,262 @@
+:root {
+    --text-color: #fff;
+    --text-background-image: url("../img/ui_img/Window04.webp");
+    --border-color: #000000;
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*Font Style de base*/
+    font-family: 'poppins-regular';
+    font-size: 1.24rem;
+    color: var(--text-color);
+    max-height: 920px;
+}
+
+
+
+@media screen and (orientation:portrait) {
+    #mainbox {
+        /*Taille du mainbox*/
+        min-width: 100vw;
+        min-height: 100vh;
+
+        /*Met le mainbox au centre de l'écran*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: cover;
+    }
+
+    #textbox {
+        background: var(--text-background-image);
+
+        width: 95%;
+        height: 20%;
+        padding: 0.5rem;
+
+        word-break: break-word;
+        background-size: cover;
+        color: white;
+
+        margin: auto;
+        position: absolute;
+        bottom: 4%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    #textbox>p {
+        width: 90%;
+        padding: 1rem;
+        overflow-y: hidden;
+    }
+
+    #optionsbox {
+        color: white;
+        margin: 0 auto;
+        display: flex;
+        gap: 8vw;
+        max-width: 30vw;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+
+    #optionsbox>div:hover {
+        color: red;
+        cursor: pointer;
+    }
+
+    #spritebox {
+        /*Set la taille*/
+        max-width: 100%;
+        max-height: 900px;
+
+        /*Positionne dans le mainbox*/
+        z-index: -1;
+        position: absolute;
+        bottom: 0px;
+        right: 150px;
+    }
+
+
+
+    #spritebox img {
+        margin-bottom: -10px;
+        /*Fait en sorte de s'assurer que l'image ne dépasse pas la taille du containeur*/
+        max-width: 150%;
+    }
+
+    #namebox {
+
+        /* Ajoute un background, un padding et un bord*/
+        background: var(--text-background-image);
+        padding: 0.5rem 3rem;
+        border: 0.125vmin solid var(--border-color);
+        font-size: 2rem;
+
+        /*Positionne le nom dans le container*/
+        position: absolute;
+        bottom: 25.5%;
+        left: 1.5%;
+        font-family: poppins-bold;
+        color: white;
+        background-size: cover;
+    }
+
+    .options {
+        color: white;
+        margin: 0 auto;
+        margin-top: 6vh;
+        display: flex;
+        gap: 8vw;
+        max-width: 50vw;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (orientation:landscape) {
+    body {
+        background-color: #1e1e1e;
+    }
+
+    #mainbox {
+        /*Taille du mainbox*/
+        min-width: 30vw;
+        min-height: 100vh;
+
+        /*Met le mainbox au centre de l'écran*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-size: cover;
+        overflow-y: hidden;
+    }
+
+    #textbox {
+        background: var(--text-background-image);
+        font-size: 1rem;
+        width: 95%;
+        height: 20%;
+        padding: 0.5rem;
+
+        word-break: break-word;
+        background-size: cover;
+        color: white;
+
+        margin: auto;
+        position: absolute;
+        bottom: 4%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    #textbox>p {
+        width: 90%;
+        padding: 1rem;
+        overflow-y: hidden;
+    }
+
+    #optionsbox {
+        color: white;
+        margin: 0 auto;
+        display: flex;
+        gap: 8vw;
+        max-width: 30vw;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+
+    #optionsbox>div:hover {
+        color: red;
+        cursor: pointer;
+    }
+
+    #spritebox {
+        /*Set la taille*/
+        max-width: 100%;
+        max-height: 900px;
+
+        /*Positionne dans le mainbox*/
+        z-index: -1;
+        position: absolute;
+        bottom: 0px;
+        right: 150px;
+    }
+
+
+
+    #spritebox img {
+        margin-bottom: -10px;
+        /*Fait en sorte de s'assurer que l'image ne dépasse pas la taille du containeur*/
+        max-width: 150%;
+    }
+
+    #namebox {
+
+        /* Ajoute un background, un padding et un bord*/
+        background: var(--text-background-image);
+        padding: 0.5rem 3rem;
+        border: 0.125vmin solid var(--border-color);
+        font-size: 2rem;
+
+        /*Positionne le nom dans le container*/
+        position: absolute;
+        bottom: 25.5%;
+        left: 1.5%;
+        font-family: poppins-bold;
+        color: white;
+        background-size: cover;
+    }
+
+    .options {
+        color: white;
+        margin: 0 auto;
+        margin-top: 6vh;
+        display: flex;
+        gap: 8vw;
+        max-width: 50vw;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+a:any-link{
+    color: #bedbff;
+}
+
+.options{
+    color: #bedbff;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Chrono Riddle -  Outdoor Escape Game">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="preload" href="style/styleriddle.css" as="style">
+    <link rel="stylesheet" href="style/styleriddle.css">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Chrono Riddle</title>
+</head>
+
+<body>
+
+    <main>
+        <p class="riddle"></p>
+
+        <label for="riddle">My answer</label>
+        <input type="text" name="riddle" class="answer">
+        <p class="wrong"></p>
+        <button class="valid">This is my answer!</button>
+        <p class="help"><span style="font-weight: bold;">Hint: </span>Look around yourself for help.</p>
+
+        <a href="index.html" title="to the next chapter"><button class="tochap2">Next</button></a>
+        <img src="img/skip_button.webp" alt="freddyx" class="mascote" onclick="skip()" loading="lazy">
+    </main>
+    <script src="js/riddle.script.js"></script>
+    <script>
+		/* Le SW en premier pour éviter les problèmes */
+		if('serviceWorker' in navigator){
+			navigator.serviceWorker.register('sw.js');
+		}
+	</script>
+</body>
+
+</html>

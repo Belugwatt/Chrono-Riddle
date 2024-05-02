@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A pipes game">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="pipe/style/style.css">
+  <title>Pipe game</title>
+</head>
+
+<body>
+  <header>
+    <h1>Connect the pipes</h1>
+  </header>
+  <div id="resultat"></div>
+  <div id="win" class="modal">
+    <div class="modal-content">
+      <p>You won!</p>
+      <a href="index.html">Next</a>
+    </div>
+  </div>
+
+  <div class="mascote"><img onclick="afficherModal(skip)" src="pipe/img/rgbb.png" loading="lazy" alt="mascote"
+      width="600" height="600"></div>
+
+  <div id="skip" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Do you wish to skip?</p>
+      <div class="content-button">
+        <div id='yes'>Yes</div>
+        <div id='no'>No</div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="pipe/script/script.js"></script>
+  <script>
+    /* Le SW en premier pour éviter les problèmes */
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+
+</html>

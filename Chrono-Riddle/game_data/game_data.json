@@ -1,0 +1,1037 @@
+{
+    "Characters": {
+        "Richard": {
+            "Happy": "img/sprite_img/richard_base_happy.webp",
+            "Disap": "img/sprite_img/richard_base_disappointed.webp",
+            "Neutral": "img/sprite_img/richard_base.webp",
+            "RGBB_Happy": "img/sprite_img/richard_rgbb_happy.webp",
+            "RGBB_Disap": "img/sprite_img/richard_rgbb_disappointed.webp",
+            "RGBB_Neutr": "img/sprite_img/richard_rgbb_base.webp",
+            "Cut_out": "img/sprite_img/cut_out.webp"
+        },
+        "FreddyX": {
+            "Neutral": "img/sprite_img/rgbb.webp",
+            "RGBB_Happy": "img/sprite_img/richard_rgbb_happy.webp",
+            "RGBB_Disap": "img/sprite_img/richard_rgbb_disappointed.webp",
+            "RGBB_Neutr": "img/sprite_img/richard_rgbb_base.webp"
+        },
+        "Narrator": {
+            "Neutral": "img/sprite_img/vide.webp",
+            "RichardBase": "img/sprite_img/richard_base.webp",
+            "RichardDiss": "img/sprite_img/richard_base_disappointed.webp",
+            "RichardHapp": "img/sprite_img/richard_base_happy.webp",
+            "richard_rgbb_base": "img/sprite_img/richard_rgbb_base.webp",
+            "RGBB": "img/sprite_img/rgbb.webp"
+        },
+        "You": {
+            "RichardBase": "img/sprite_img/richard_base.webp",
+            "Neutral": "img/sprite_img/vide.webp",
+            "richard_rgbb_base": "img/sprite_img/richard_rgbb_base.webp",
+            "richard_RGBB_happy": "img/sprite_img/richard_RGBB_happy.webp",
+            "RichardHapp": "img/sprite_img/richard_base_happy.webp",
+            "RichardDiss": "img/sprite_img/richard_base_disappointed.webp",
+            "RGBB": "img/sprite_img/rgbb.webp"
+        },
+        "???": {
+            "Neutral": "img/sprite_img/vide.webp",
+            "RichardBase": "img/sprite_img/richard_base.webp",
+            "richard_rgbb_base": "img/sprite_img/richard_rgbb_base.webp",
+            "RGBB": "img/sprite_img/rgbb.webp"
+        },
+        "Unknown Voice": {
+            "RichardBase": "img/sprite_img/richard_base.webp",
+            "Neutral": "img/sprite_img/vide.webp",
+            "RGBB": "img/sprite_img/rgbb.webp"
+        },
+        "Devs": {
+            "Neutral": "img/sprite_img/vide.webp"
+        }
+    },
+    "Chapter1": {
+        "Background": "img/background_img/stetienne.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As you are walking through the city, not watching where you're going, you hit something."
+            },
+            "Page1": {
+                "Character": "???",
+                "Sprite": "Neutral",
+                "PageText": "*Beep beep*"
+            },
+            "Page2": {
+                "Character": "You",
+                "Sprite": "Neutral",
+                "PageText": "Woah…!"
+            },
+            "Page3": {
+                "Character": "???",
+                "Sprite": "Neutral",
+                "PageText": "You good there, comrade?"
+            },
+            "Page4": {
+                "Character": "You",
+                "Sprite": "Neutral",
+                "PageText": "Yeah, sorry about that. What about you, are you hurt?"
+            },
+            "Page5": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As you take a look at the stranger, you can't help but notice his strange clothes."
+            },
+            "Page6": {
+                "Character": "???",
+                "Sprite": "RichardBase",
+                "PageText": "Oh! No, no, don't worry about me!"
+            },
+            "Page7": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "The stranger was already standing up, ready to walk away."
+            },
+            "Page8": {
+                "Character": "Unknown Voice",
+                "Sprite": "RichardBase",
+                "PageText": "Richard, we need to go."
+            },
+            "Page9": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "(Where does this voice come from?)"
+            },
+            "Page10": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "The stranger in front of you reached out to hide something behind his back."
+            },
+            "Page11": {
+                "Character": "???",
+                "Sprite": "RichardBase",
+                "PageText": "I'm Richard by the way."
+            },
+            "Page12": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "Uh...Hello?"
+            },
+            "Page13": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "Comrade, I have a question for you."
+            },
+            "Page14": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "See, I need help with gathering pieces around the city."
+            },
+            "Page15": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "I have been assigned to repair a machine, and the pieces are very special pieces scattered all around Mulhouse."
+            },
+            "Page16": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Will you help me?"
+            },
+            "Page17": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "Yes, it seems like something important. How may I help you?"
+            },
+            "Page18": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "So. Here's what I have to do. I need to get a cogwheel. "
+            },
+            "Page19": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Unfortunately, the location is still unsure. I have this one weird puzzle about to learn more about the exact place. Here it is."
+            },
+            "Page20": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='puzzle.html' class='options'>See Puzzle</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter2": {
+        "Background": "img/background_img/stetienne.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "Well done!"
+            },
+            "Page1": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Did you know that this fountain was created to hide or show the frogs in their natural habitat?"
+            },
+            "Page2": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "A program was created to make this possible with the variation of the water. Truly fascinating."
+            },
+            "Page3": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As you take a look at the fountain, something starts to shine into the water."
+            },
+            "Page4": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "Richard also seems to notice it."
+            },
+            "Page5": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Would you look at that, a minigame."
+            },
+            "Page6": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "Richard takes the shining object and plugs it into his tablet."
+            },
+            "Page7": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "Oh, so in order to get the piece, we need to beat this minigame."
+            },
+            "Page8": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "Richard takes a closer look at his tablet."
+            },
+            "Page9": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "I see..."
+            },
+            "Page10": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Comrade, do you know the Frogger video game?"
+            },
+            "Page11": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "The one by Konami, released in 1981?"
+            },
+            "Page12": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "Precisely. See, I need to locate the next piece, could you solve this for me?"
+            },
+            "Page13": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "Sure, can do."
+            },
+            "Page14": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "FreddyX, please come out of hiding. I need your help."
+            },
+            "Page15": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As soon as Richard uttered these words, an unidentified flying object flies from behind him"
+            },
+            "Page16": {
+                "Character": "???",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "What’s going on?"
+            },
+            "Page17": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "I need you to get into the game and solve it thanks to the help of this dear comrade."
+            },
+            "Page18": {
+                "Character": "???",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "...alright."
+            },
+            "Page19": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Comrade, this is FreddyX, my assistant. He will help you to beat this minigame by taking the place of the frog in this minigame."
+            },
+            "Page20": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Please, don't kill me under a truck."
+            },
+            "Page21": {
+                "Character": "You",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "I’ll do my best."
+            },
+            "Page22": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "I hope you’re ready, because this starts now."
+            },
+            "Page23": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='frogger_page.html' class='options'>Minigame</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter3": {
+        "Background": "img/background_img/stetienne.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "Well done. Thanks to you, the cogwheel has been retrieved!"
+            },
+            "Page1": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "While I was searching around, I noticed this church."
+            },
+            "Page2": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Oh, it’s the St-Etienne’s church, not to be confused with the St-Etienne temple a little farther down the road."
+            },
+            "Page3": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "It was built in 1855 and completed in 1860, and was designed by Jean-Baptiste Schacre, an architect of around this time."
+            },
+            "Page4": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "It contains an organ made by Aristide Cavaillé-Coll that was installed in 1860 and completed in 1863. It also has 6 bells."
+            },
+            "Page5": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Very interesting."
+            },
+            "Page6": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "I have located the second piece, please go to this location safely, I’ll be waiting for you."
+            },
+            "Page7": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='map.html' class='options'>See the location</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter4": {
+        "Background": "img/background_img/parc.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Narrator",
+                "Sprite": "RichardDiss",
+                "PageText": "As you arrive at the park, Richard is sitting on a bench, looking at his tablet, seemingly worried. You decide to greet him."
+            },
+            "Page1": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "You're here! Thank you."
+            },
+            "Page2": {
+                "Character": "You",
+                "Sprite": "RichardHapp",
+                "PageText": "No problem."
+            },
+            "Page3": {
+                "Character": "You",
+                "Sprite": "RichardHapp",
+                "PageText": "I just have one question: why are you doing all this? You said that you needed to repair a machine, but I don’t get why we need to solve puzzles and beat minigames."
+            },
+            "Page4": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "You can get a cogwheel in a DIY store. It’s no big deal, and probably not all that expensive."
+            },
+            "Page5": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "See, the machine I’m supposed to repair is a very old machine."
+            },
+            "Page6": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "It was created way back in the very beginnings of the industrialisation era of Mulhouse, back in 1837."
+            },
+            "Page7": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "So you can guess these pieces aren’t the ones we get into DIY stores."
+            },
+            "Page8": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "And what machine is it?"
+            },
+            "Page9": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "The central cooling system of Mulhouse."
+            },
+            "Page10": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "It’s still active and cools off every machine present in Mulhouse."
+            },
+            "Page11": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "See, it’s malfunctioning, and on the verge of exploding."
+            },
+            "Page12": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "So the time is ticking and we need to get these pieces as soon as possible. There are only 2 pieces remaining."
+            },
+            "Page13": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "I decoded the second puzzle."
+            },
+            "Page14": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Comrade, would you take a look at it for me, please? I’ll locate the third piece."
+            },
+            "Page15": {
+                "Character": "You",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "Sure thing."
+            },
+            "Page16": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='puzzle.html' class='options'>See Puzzle</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter5": {
+        "Background": "img/background_img/parc.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Good job. This man sure has been dead for a while now."
+            },
+            "Page1": {
+                "Character": "You",
+                "Sprite": "RGBB",
+                "PageText": "He does, who is he?"
+            },
+            "Page2": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "He’s Auguste Lustig, he used to write poems and plays in Alsatian. Dead for around 230 years from now."
+            },
+            "Page3": {
+                "Character": "You",
+                "Sprite": "RGBB",
+                "PageText": "230 years?!"
+            },
+            "Page4": {
+                "Character": "You",
+                "Sprite": "RGBB",
+                "PageText": "Are you sure you’re okay? 2024 - 1895 doesn’t make 230."
+            },
+            "Page5": {
+                "Character": "You",
+                "Sprite": "RGBB",
+                "PageText": "It’s only 129 years."
+            },
+            "Page6": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Ah uh… well…"
+            },
+            "Page7": {
+                "Character": "Narrator",
+                "Sprite": "RGBB",
+                "PageText": "FreddyX starts to shake."
+            },
+            "Page8": {
+                "Character": "Narrator",
+                "Sprite": "RGBB",
+                "PageText": "It seems to have caught the attention of Richard who comes running to the weird flying object."
+            },
+            "Page9": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Is everything okay?"
+            },
+            "Page10": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "FreddyX seems to whisper something to the ear of Richard as he starts to nod and sigh."
+            },
+            "Page11": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Disap",
+                "PageText": "I see..."
+            },
+            "Page12": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "Something seems to catch the attention of Richard again."
+            },
+            "Page13": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "Something shining on the statue. It seems like a new minigame is ready to be played."
+            },
+            "Page14": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "I am still trying to locate the third piece, comrade, could you take a look at it?"
+            },
+            "Page15": {
+                "Character": "You",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "Sure."
+            },
+            "Page16": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='simon_page.html' class='options'>Minigame</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter6": {
+        "Background": "img/background_img/parc.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "Richard takes a weird lever that fell on the floor, putting it in his bag."
+            },
+            "Page1": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Comrade, well done for the minigame."
+            },
+            "Page2": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "I only have one question, do you have time for me to explain things to you?"
+            },
+            "Page3": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "It seems like FreddyX has made a little mistake."
+            },
+            "Page4": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "Sure."
+            },
+            "Page5": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Please sit down, it’s probably a lot to take in."
+            },
+            "Page6": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "You sit down, waiting for Richard to spill his guts."
+            },
+            "Page7": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "It’s probably unbelievable, but I come from the future."
+            },
+            "Page8": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "The explosion of the central cooling system and its fix has been assigned to me to make sure that a conflict between multiple countries will never happen."
+            },
+            "Page9": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "A conflict?"
+            },
+            "Page10": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Yes, due to current tensions between countries, the explosion of Mulhouse is one of the last straws that put the world into a huge conflict."
+            },
+            "Page11": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Some things that you would call a “third world war”. You know, this kind of stuff."
+            },
+            "Page12": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "To fix the future, my team and I are trying to fix elements from the past to ensure a safe and peaceful environment for the future of humanity."
+            },
+            "Page13": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "It’s hard to believe it."
+            },
+            "Page14": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "I know."
+            },
+            "Page15": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "But I guess you can understand how FreddyX made this mistake and how FreddyX exists too."
+            },
+            "Page16": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "True."
+            },
+            "Page17": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "So, you need my help to repair this machine, to prevent it from exploding, killing everyone in the city and a potential war…"
+            },
+            "Page18": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Yes."
+            },
+            "Page19": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "I guess I don’t have a choice about that."
+            },
+            "Page20": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "Let’s find the final piece and save the world."
+            },
+            "Page21": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "I like your way of thinking comrade."
+            },
+            "Page22": {
+                "Character": "Richard",
+                "Sprite": "Happy",
+                "PageText": "Let’s go to this location. I’ll find you there."
+            },
+            "Page23": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='map.html' class='options'>See the location</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter7": {
+        "Background": "img/background_img/place.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "You arrive at la Place de la Réunion."
+            },
+            "Page1": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "The final piece is supposed to be there."
+            },
+            "Page2": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "It so happens that Richard and FreddyX were standing there, waiting for you."
+            },
+            "Page3": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Hi comrade, I hope you arrived safely here. Did you have an issue?"
+            },
+            "Page4": {
+                "Character": "You",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "Not at all. Let’s end this."
+            },
+            "Page5": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "Richard nods and showed you the final problem."
+            },
+            "Page6": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='puzzle.html' class='options'>See Puzzle</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter8": {
+        "Background": "img/background_img/place.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Good job. It seems like we’re in front of the very last minigame."
+            },
+            "Page1": {
+                "Character": "Narrator",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "He is right, something is still shining inside the water."
+            },
+            "Page2": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Water is really something important in Mulhouse."
+            },
+            "Page3": {
+                "Character": "You",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "It does..."
+            },
+            "Page4": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Water was very important back then, as it was used for a lot of things, including watermills."
+            },
+            "Page5": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "It seems like the first local community was built around a watermill."
+            },
+            "Page6": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "And the name of the city is, in fact, “Mühlhausen”, a name made up of the German “Mühl” for mill, and “Hausen” for houses."
+            },
+            "Page7": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "Richard is fiddling his tablet, starting the final minigame."
+            },
+            "Page8": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Speaking of water, it seems that it is the theme of this final trial."
+            },
+            "Page9": {
+                "Character": "Narrator",
+                "Sprite": "RichardBase",
+                "PageText": "Richard hands you his tablet."
+            },
+            "Page10": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "I hope you’re ready."
+            },
+            "Page11": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "I am. Let’s finish this."
+            },
+            "Page12": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='pipe_game.html' class='options'>Minigame</a>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter9": {
+        "Background": "img/background_img/place.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Seems like our adventures are ending now."
+            },
+            "Page1": {
+                "Character": "You",
+                "Sprite": "richard_rgbb_base",
+                "PageText": "It seems."
+            },
+            "Page2": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Thank you again, comrade. I’ll never forget your help on this mission."
+            },
+            "Page3": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "Richard, time is ticking, you might want to go down and repair whatever this machine is."
+            },
+            "Page4": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Neutr",
+                "PageText": "I’ll be right back, just wait here."
+            },
+            "Page5": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div class='options' onclick='waiting_for_richard()'>Wait</div>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter10": {
+        "Background": "img/background_img/black_screen.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "Time passes as you waited for Richard to come back."
+            },
+            "Page1": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "Feeling slightly anxious about Richard’s safety, you decide to sit down near the fountain."
+            },
+            "Page2": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "You see kids running around, families enjoying the end of their day."
+            },
+            "Page3": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "People were running groceries last minute as their fridge was empty."
+            },
+            "Page4": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "It seems so peaceful yet so lively."
+            },
+            "Page5": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "All could end in an instant, because of a malfunction of a machine."
+            },
+            "Page6": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As you continue to wait, you hear a familiar voice."
+            },
+            "Page7": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div class='options' onclick='turn_around()'>Turn around</div>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter11": {
+        "Background": "img/background_img/place.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Yo."
+            },
+            "Page1": {
+                "Character": "You",
+                "Sprite": "RGBB",
+                "PageText": "FreddyX, what are you doing here? Where is Richard?"
+            },
+            "Page2": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "He’s doing fine, he just took a bathroom break. The machine’s fine, it has been repaired."
+            },
+            "Page3": {
+                "Character": "You",
+                "Sprite": "RGBB",
+                "PageText": "Oh, thank god he’s fine."
+            },
+            "Page4": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "If you really thought you could get rid of his dumb butt so easily, you’re wrong."
+            },
+            "Page5": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "He survived worse things than an explosion of a machine."
+            },
+            "Page6": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Besides, you would probably be dead by now if he didn’t repair it yet."
+            },
+            "Page7": {
+                "Character": "Richard",
+                "Sprite": "Cut_out",
+                "PageText": "What are you saying again, FreddyX?"
+            },
+            "Page8": {
+                "Character": "Narrator",
+                "Sprite": "RGBB",
+                "PageText": "FreddyX hides behind you in an attempt to flee from Richard."
+            },
+            "Page9": {
+                "Character": "Richard",
+                "Sprite": "Disap",
+                "PageText": "Who’s dumb butt are you talking about? You were the one getting me in trouble all the time."
+            },
+            "Page10": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Absolutely not true."
+            },
+            "Page11": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "You’re the one who takes reckless actions in these kinds of dangerous situations."
+            },
+            "Page12": {
+                "Character": "Richard",
+                "Sprite": "Disap",
+                "PageText": "Do you have any proof?"
+            },
+            "Page13": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Saving the UK Prime Minister in 2100?"
+            },
+            "Page14": {
+                "Character": "Richard",
+                "Sprite": "Disap",
+                "PageText": "In my defense, it was my very first solo mission."
+            },
+            "Page15": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "You almost blew up the palace!"
+            },
+            "Page16": {
+                "Character": "Richard",
+                "Sprite": "Disap",
+                "PageText": "It was an accident!"
+            },
+            "Page17": {
+                "Character": "FreddyX",
+                "Sprite": "Neutral",
+                "PageText": "Whatever."
+            },
+            "Page18": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As you watch the two bicker like an old couple, you notice that the sun was setting, putting an orange hue on almost everything around you."
+            },
+            "Page19": {
+                "Character": "Richard",
+                "Sprite": "Neutral",
+                "PageText": "Seems like it’s time to go home."
+            },
+            "Page20": {
+                "Character": "You",
+                "Sprite": "RichardBase",
+                "PageText": "Already?"
+            },
+            "Page21": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Happy",
+                "PageText": "Yes. It was nice having you around, comrade"
+            },
+            "Page22": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Happy",
+                "PageText": "Thank you for your priceless help, comrade."
+            },
+            "Page23": {
+                "Character": "You",
+                "Sprite": "richard_RGBB_happy",
+                "PageText": "I’m glad that I was of help."
+            },
+            "Page24": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Happy",
+                "PageText": "We probably won’t be able to meet in the future, but it was nice meeting you."
+            },
+            "Page25": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Happy",
+                "PageText": "Maybe, just maybe we’ll be able to see each other in another context."
+            },
+            "Page26": {
+                "Character": "You",
+                "Sprite": "richard_RGBB_happy",
+                "PageText": "See you around, then. Call me if you need my help for another mission."
+            },
+            "Page27": {
+                "Character": "Richard",
+                "Sprite": "RGBB_Happy",
+                "PageText": "I will find you, see you around, comrade."
+            },
+            "Page28": {
+                "Character": "FreddyX",
+                "Sprite": "RGBB_Happy",
+                "PageText": "Bye."
+            },
+            "Page29": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div class='options' onclick='epilogue()'>Watch him go home</div>",
+                "NextPage": "End"
+            }
+        }
+    },
+    "Chapter12": {
+        "Background": "img/background_img/final.webp",
+        "PAGES": {
+            "Page0": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "As Richard disappears in an alley, probably to safely and discreetly return to his timeline, you smiled to yourself. "
+            },
+            "Page1": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "Heroes don’t wear capes, but they sure are real, after all. Probably bickering with a little flying blue robot."
+            },
+            "Page2": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "Time passes then, and you continue your life peacefully, probably thanks to Richard’s team."
+            },
+            "Page3": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "You will never meet him ever again, but you hope everyday to talk to him again, that he is alright and safe."
+            },
+            "Page4": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "He probably is, as the future of humanity seems so peaceful and perfect."
+            },
+            "Page5": {
+                "Character": "Devs",
+                "Sprite": "Neutral",
+                "PageText": "Thank you for playing the Chrono Riddle!"
+            },
+            "Page6": {
+                "Character": "Devs",
+                "Sprite": "Neutral",
+                "PageText": "You can now close the game, if you want to fill in a feedback form, please refer to the following link:"
+            },
+            "Page7": {
+                "Character": "Narrator",
+                "Sprite": "Neutral",
+                "PageText": "<div><a href='https://forms.gle/8c9994j6uLj1FVxC6' class='options' target='_blank'>Feedback Form</a>",
+                "NextPage": "End"
+            }
+        }
+    }
+}

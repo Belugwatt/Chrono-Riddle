@@ -1,0 +1,218 @@
+*{
+  transition: all 0.4s ease-out;
+}
+
+body{
+  margin:0;
+  background-color: #f93a5700;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+.mascote{
+  height:200px;
+  width:200px;
+  margin-left: auto;
+  position: fixed;
+  top: -30px;
+  right: -80px;
+  animation: flote 3s infinite ease-in-out;
+  z-index: 3;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@keyframes flote {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(16px);
+  }
+  100% {
+    transform: translateY(0px);
+}
+}
+
+img{
+  height:100%;
+}
+
+.ctl{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom:10px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 300px;  /* Largeur de l'élément */
+}
+
+
+.lanceMelo{
+  text-align: center;
+  background-color: #f9703a;
+  color: aliceblue;
+  padding:10px;
+  border-radius: 6px;
+  margin:10px;
+  transition: background-color 0.3s ease-out;
+}
+
+.lanceMelo:hover{
+  background-color: #f93a57;
+}
+
+canvas{
+  background: #9bcfcd00;
+  position: fixed;
+  bottom: -40px;
+}
+
+.reponse{
+  text-align: center;
+  color: aliceblue;
+  background-color: #628AB3;
+  border-radius: 6px;
+  margin:10px;
+  padding:10px 10px 10px 10px;
+  transition: 0.6s ease-out;
+}
+
+.win{
+  background-color:rgb(255, 193, 9);
+  animation: rebont 2s ease-in-out;
+}
+
+.err{
+  background-color:rgb(230, 94, 57);
+  animation: wiz 1s ease-in-out;
+}
+
+@keyframes wiz {
+  0%, 7% {
+      transform: rotateZ(0);
+  }
+  15% {
+      transform: rotateZ(-15deg);
+  }
+  20% {
+      transform: rotateZ(10deg);
+  }
+  25% {
+      transform: rotateZ(-10deg);
+  }
+  30% {
+      transform: rotateZ(6deg);
+  }
+  35% {
+      transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+      transform: rotateZ(0);
+  }
+}
+
+@keyframes rebont {
+  0%, 7% {
+      transform: scale(100%);
+  }
+  15% {
+      transform: scale(114%);
+  }
+  20% {
+      transform: scale(116%);
+  }
+  25% {
+      transform: scale(118%);
+  }
+  30% {
+      transform: scale(120%);
+  }
+  35% {
+      transform: scale(122%);
+  }
+  40%, 100% {
+      transform: scale(100%);
+  }
+}
+
+
+/*      ///     animation du backgroung     ///      */
+html {
+    --s: 100px; /* control the size */
+    --c1: #A1C4E8;
+    --c2: #9ebfe1;
+    
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: var(--_s) conic-gradient(at 40% 40%,#0000 75%,var(--c1) 0);
+    --_p: var(--_s) conic-gradient(at 20% 20%,#0000 75%,var(--c2) 0);
+    background:
+      calc( .9*var(--s)) calc( .9*var(--s))/var(--_p),
+      calc(-.1*var(--s)) calc(-.1*var(--s))/var(--_p),
+      calc( .7*var(--s)) calc( .7*var(--s))/var(--_g),
+      calc(-.3*var(--s)) calc(-.3*var(--s))/var(--_g),
+      conic-gradient(from 90deg at 20% 20%,var(--c2) 25%,var(--c1) 0) 
+       0 0/var(--s) var(--s);
+    animation: m 3s infinite;
+  }
+  @keyframes m {
+    0% {
+     background-position: 
+      calc( .9*var(--s)) calc( .9*var(--s)),
+      calc(-.1*var(--s)) calc(-.1*var(--s)),
+      calc( .7*var(--s)) calc( .7*var(--s)),
+      calc(-.3*var(--s)) calc(-.3*var(--s)),0 0
+    }
+    25% {
+     background-position: 
+      calc(1.9*var(--s)) calc( .9*var(--s)),
+      calc(-1.1*var(--s)) calc(-.1*var(--s)),
+      calc(1.7*var(--s)) calc( .7*var(--s)),
+      calc(-1.3*var(--s)) calc(-.3*var(--s)),0 0
+    }
+    50% {
+     background-position: 
+      calc(1.9*var(--s)) calc(-.1*var(--s)),
+      calc(-1.1*var(--s)) calc( .9*var(--s)),
+      calc(1.7*var(--s)) calc(-.3*var(--s)),
+      calc(-1.3*var(--s)) calc( .7*var(--s)),0 0
+    }
+    75% {
+     background-position: 
+      calc(2.9*var(--s)) calc(-.1*var(--s)),
+      calc(-2.1*var(--s)) calc( .9*var(--s)),
+      calc(2.7*var(--s)) calc(-.3*var(--s)),
+      calc(-2.3*var(--s)) calc( .7*var(--s)),0 0
+    }
+    100% {
+     background-position: 
+      calc(2.9*var(--s)) calc(-1.1*var(--s)),
+      calc(-2.1*var(--s)) calc(1.9*var(--s)),
+      calc(2.7*var(--s)) calc(-1.3*var(--s)),
+      calc(-2.3*var(--s)) calc(1.7*var(--s)),0 0
+    }
+  }
+
+
+  @media screen and (min-width: 500px) {
+    canvas{
+      margin-left:24%;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    canvas{
+      bottom: 100px;
+      margin-left:28%;
+    }
+    .ctl{
+      flex-direction: row;
+      width: 560px;  /* Largeur de l'élément */
+    }
+    
+  }
+

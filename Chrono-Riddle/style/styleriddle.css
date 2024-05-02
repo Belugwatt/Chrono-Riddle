@@ -1,0 +1,145 @@
+:root {
+    --text-color: #000000;
+    --border-color: #000000;
+}
+
+@font-face {
+    font-family: caveat;
+    src: url("../fonts/caveat/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'caveat';
+    font-size: 2.5rem;
+    color: var(--text-color);
+    background-image: url(../img/background_img/puzzle_bg.webp);
+}
+
+.help{
+    font-size: 20px;
+    margin: 5vh 2vw;
+    font-family: poppins;
+}
+
+
+.mascote {
+    max-height: 80px;
+    max-width: 80px;
+    margin-left: auto;
+    position: fixed;
+    top: 85%;
+    right: 40%;
+    animation: flote 3s infinite ease-in-out;
+}
+
+@keyframes flote {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(16px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+label[for="riddle"] {
+    display: none;
+}
+
+a:any-link{
+    text-decoration: none;
+}
+
+
+
+@media screen and (orientation:landscape) {
+    .riddle {
+        font-size: 3rem;
+        margin: 2vw 2vh;
+    }
+
+    input[type=text] {
+        margin: 2vw 2vh;
+        font-size: 3rem;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .tochap2,
+    .tochap3 {
+        margin: 2vw 2vh;
+        font-size: 1rem;
+        padding: 1.5rem;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .valid {
+        font-size: 1rem;
+        margin: 2vw 2vh;
+        padding: 1em 1.5rem;
+        border: none;
+        font-family: poppins;
+        border-radius: 20px;
+    }
+
+    main {
+        margin: 2vw 2vh;
+        margin-top: 10vh;
+    }
+}
+
+
+@media screen and (orientation:portrait) {
+    .riddle {
+        font-size: 2.2rem;
+        margin: 1vw 1vh;
+        min-width: 90vmin;
+    }
+
+    input[type=text] {
+        font-size: 2.1rem;
+        margin: 1vw 1vh;
+        border: none;
+        padding: .25em .5rem;
+        border-radius: 3px;
+        max-width: 90vw;
+    }
+
+
+    .valid,
+    .tochap2,
+    .tochap3 {
+        font-family: poppins;
+        margin-top: 2vh;
+        margin-left: 1vw;
+        font-size: 2.1rem;
+        padding:  2rem;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .tochap2>a:any-link {
+        text-decoration: none;
+    }
+
+    main {
+        max-width: 95vmin;
+        margin-top: 10vh;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "R1": {
+        "Riddle": "I'm the guardian of the marshes and rivers,<br>My appearance can be strange and harsh.<br>I drink stagnant water and hunt on the prowl, <br>My presence is discreet, but I am robust.<br>Who am I?",
+        "Answers": [
+            "Toad",
+            "Frog"
+        ]
+    },
+    "R2": {
+        "Riddle": "What is the full name of the oldest man in this park?",
+        "Answers": [
+            "Auguste Lustig",
+            "Auguste",
+            "Lustig"
+        ]
+    },
+    "R3": {
+        "Riddle": "In the animated city, I am a static work,<br>My perpetual flow makes life more authentic.<br>I shelter myths and legends in my flow,<br>In the heart of the city, I am a treasure to be discovered early.<br>Who am I?",
+        "Answers": [
+            "Fountain"
+        ]
+    }
+}

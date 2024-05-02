@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <link rel="stylesheet" href="map/leaflet-routing-machine.css">
+    <link rel="stylesheet" href="map/arrive.style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Chrono Riddle: Map</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="map/leaflet-routing-machine.js"></script>
+    <script src="map/scriptes/scripte.js"></script>
+
+    <script>
+        /* Le SW en premier pour éviter les problèmes */
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+
+</body>
+
+</html>
