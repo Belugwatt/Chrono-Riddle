@@ -27,3 +27,12 @@ body{
   .cont:hover{
     background-color: #f93a57;
   }
+
+  .JeArriver{
+    position: fixed;
+    z-index:1000;
+    padding:10px;
+    margin-top: 10px;
+    font-size: 14px;
+    bottom: 10px;
+  }
